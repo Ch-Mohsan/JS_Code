@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid black;
+    color: white;
+
+}
+#mybtn{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+}
+.darkClass{
+   background-color: black;
+   color: white;
+}
+.liteClass{
+    background-color: white;
+    color: black;
+ }
+ .content{
+   height: 200px;
+   width: 200px;
+   border-radius: 10px;
+   background-color: palevioletred;
+   color: white;
+   display: flex;
+   align-items: center;
+ }
+ .content div{
+   background-color: white;
+   border-radius: 5px;
+   border: none;
+   background-image: url(mytshirt.webp);
+   background-size: cover;
+ }
+ .hide{
+   visibility: hidden;
+
+ }

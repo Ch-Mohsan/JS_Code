@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View CV</title>
+    <link rel="stylesheet" href="ViewCv.css">
+</head>
+<body>
+    <div id="cv-content">
+        <div class="clumnBox">
+            <img id="image">
+            <div class="skillbox">
+                <h3>Contact</h3>
+                <label>Address</label>
+                <p id="country">Pakistan</p>
+                <p id="address">Vehari</p>
+                <label>Number</label>
+                <p id="phone">0000000</p>
+                <label>Email</label>
+                <p id="email">m.com</p>
+            </div>
+            <div class="skillbox">
+                <h3>Languages</h3>
+                <ul id="lange"></ul>
+            </div>
+            <div class="skillbox">
+                <h3>Skills</h3>
+                <ul id="skill"></ul>
+            </div>
+            <div class="skillbox">
+                <h3>Hobbies</h3>
+                <ul id="hoby"></ul>
+            </div>
+        </div>
+
+        <div class="nameBox">
+            <p id="fullname">Mohsan Ali</p>
+        </div>
+        <div class="contentBox">
+            <h2>Profile</h2>
+            <p id="about">about</p>
+            <h2>Professional Experience</h2>
+            <hr>
+            <p id="experince">experience</p>
+            <h2>Education</h2>
+            <hr>
+            <p id="education">education</p>
+        </div>
+    </div>
+
+    <button id="download" download="myCv">Download</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="viewCv.js"></script>
+</body>
+</html>

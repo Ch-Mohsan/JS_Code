@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222222;
+    color: #ffffff;
+}
+.container{
+    position: relative;
+    
+}
+
+.circul{
+    height: 70vmin;
+    width: 70vmin;
+    border: 0.5px solid #ffffff;
+    background-color: rgb(100,100,100,0.7);
+    border-radius: 50%;
+    box-shadow: 8px 4px 8px rgb(120,120,120,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    
+}
+.degit{
+    position: absolute;
+    transform:rotate(calc(30deg*var(--i)));
+    inset: 12px;
+    text-align: center;
+}
+span b{
+    transform: rotate(calc(-30deg*var(--i)));
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.dote{
+    content: "";
+    position: absolute;
+    height: 0.5em;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    z-index: 2;
+    
+}
+.hand{
+position: absolute;
+transform: rotate(0deg);
+display: flex;
+align-items: flex-end;
+justify-content: center;
+    
+    }
+.hand i{
+    position: absolute;
+    height: 7rem;
+    width: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 4rem;
+}
+
+/* timmer Desgin */
+.timmer{
+    width: 60vmin;
+    height: 15vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #ffffff;
+    background-color: rgb(100,100,100,0.7);
+    box-shadow: 8px 4px 8px rgb(120,120,120,0.6);
+     margin-bottom: 2rem; 
+}
+.box{
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    height:12vmin ;
+    width: 12vmin;
+    border-radius: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 1rem ;
+    margin-left: 1.5rem;
+
+}
+.ampm{
+    font-size: 1.5rem;
+    width: 2vmin;
+    height: 5vmin;
+    color:white;
+    margin: 2rem;
+    color: darkorange;
+}

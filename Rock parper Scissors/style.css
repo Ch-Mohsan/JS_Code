@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: wheat
+}
+h1{
+    height: 100px;
+    background-color: #000023;
+    color: snow;
+    line-height: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 10rem;
+    color: indianred;
+}
+.cohice:hover{
+    background-color: #aaffaa;
+}
+.bord{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.userScoreBord,.compScoreBord{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: blue;
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+
+#masage{
+    width: 150px;
+    height: 80px;
+    background-color:  #000023;
+    display: inline-block;
+    color: snow;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    line-height: 3rem;
+
+}

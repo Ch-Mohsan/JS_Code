@@ -1,0 +1,31 @@
+h1{
+    color: aqua;
+    
+}
+.myclass{
+    height: 100px;
+    width: 200px;
+    background-color: palegreen;
+    color: yellow;
+    border: 3px dashed brown;
+    margin-top: 15px;
+}
+.outer{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    color: white;
+    border: 3px solid salmon;
+
+    
+}
+#inner{
+    height: 80px;
+    width:70px;
+    background-color: red;
+}
+.text{
+    color: blue;
+    font-size: 40px;
+    visibility: hidden;
+}

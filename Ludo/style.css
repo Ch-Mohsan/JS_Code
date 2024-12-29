@@ -1,0 +1,181 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+body{
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #111111;
+}
+.container{
+    height: 25vmin;
+    width: 120vmin;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color:transparent;    
+    
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    width: 12vmin;
+    height: 7vmin;
+    border: 1px solid black;
+    border-radius: 3rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    background-color : #536493;
+    color: #220000;
+    box-shadow: 0px 7px 11px rgba(200, 200, 200, 0.6);
+    
+}
+.reverse{
+    flex-direction: row-reverse;
+    background-color: #EF5A6F
+}
+.gammer {
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 30%;
+    background-color: #03346E;
+    color: #ffffff;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 30vmin;
+    margin-top: 1rem;
+    box-shadow: 0 0 20px rgba(200, 200, 180, 0.5);
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 0.6s ease-in-out;
+}
+
+.gammer.anima {
+    transform: rotateY(360deg);
+}
+
+.player{
+    height: 6vmin;
+    width: 5vmin;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    line-height: 0.5rem;
+    font-size: 0.8rem;
+    border: 0.5px solid black;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    margin-left: 0.5rem;
+    box-shadow: 0px 3px 8px rgba(250, 250, 180, 0.8);
+}
+#red{
+    background-color: #770000;
+    background-image: url(red.png);
+    background-size: cover;
+    object-fit: fill;
+}                       
+#green{
+    background-color: rgba(0, 100, 0, 0.547);
+    background-image: url(green.png);
+    background-size: cover;
+    object-fit: fill;
+
+}
+.lodo1{
+    background-image: url(lodo1.jpeg);
+    background-size: cover;
+    object-fit: fill;
+}
+.lodo2{
+    background-image: url(lodo2.jpeg);
+    background-size: cover;
+    object-fit: fill;
+}
+.lodo3{
+    background-image: url(lodo3.jpeg);
+    background-size: cover;
+    object-fit: fill;
+}
+.lodo4{
+    background-image: url(lodo4.png);
+    background-size: cover;
+    object-fit: fill;
+}
+.lodo5{
+    background-image: url(lodo5.png);
+    background-size: cover;
+    object-fit: fill;
+}
+.lodo6{
+    background-image: url(lodo6.png);
+    background-size: cover;
+    object-fit: fill;
+}
+.btn{
+    display: block;
+    height: 8vh;
+    width: 12vh;
+    margin-top: 2rem;
+    color:#FFF1DB;
+    border-radius: 2rem;
+    background-color: #536493;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    gap: 2rem;
+    box-shadow: 0px 5px 10px rgba(200, 200, 100, 0.8);
+
+}
+.position{
+    height: 15rem;
+    width: 15rem;
+}
+ .masage{
+    height: 4rem;
+    width: 20rem;
+    color:#EF5A6F;
+    background-color: #220000;
+    line-height: 4rem;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    box-shadow: 0px 10px 15px rgba(250, 250, 200, 0.8);
+}
+
+#winner{
+    height: 4rem;
+    width: 30rem;
+    color:#EF5A6F;
+    background-color: #220000;
+    line-height: 4rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.hide{
+    display: none;
+}
+.btnContent{
+    height: 10rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.playContent{
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

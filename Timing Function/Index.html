@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Time</title>
+    <link rel="stylesheet" href="stylr.css">
+</head>
+<body>
+ <div class="outerBox">
+    <div class="container" id="clockBox">
+        <h1>Clock</h1>
+        <div class="contentRow">
+            <span id="ch">hh</span>
+            <span id="cm">mm</span>
+            <span id="cs">ss</span>
+        <span id="ampm" style="font-size: 0.8rem;"></span>
+
+        </div>
+        <div class="contentRow">
+            <span class="date" id="day">11</span>
+            <span  class="date"id="month">77</span>
+            <span class="date"id="year">2222</span>
+        </div>
+            </div>
+    <div class="container" id="TimmerkBox">
+        <h1>Timmer</h1>
+       <div class="contentRow">
+           <span id="th">hh</span>
+           <span id="tm">mm</span>
+        <span id="ts">ss</span>
+       </div>
+       <div class="btnRow">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+       </div>
+    </div>
+    </div>
+    
+    <div class="alarm">
+        <h1>Alram</h1>
+        <span class="photo"></span>
+
+    <label>Set Alarm</label>
+        <input type="time" id="userTime">
+        <label>Your  Alarm Time</label>
+        <input type="time" id="setTime" disabled>
+        <button id="setbtn">Set Alarm</button>
+        <audio id="sound" src="alarm sound.mp3"></audio>
+        
+    </div>   
+
+    <script src="app.js"></script>
+</body>
+</html>

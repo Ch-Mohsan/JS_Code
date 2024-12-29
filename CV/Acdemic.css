@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    
+
+}
+body{
+    background-color: #333333;
+}
+form{
+    display: flex;
+   flex-direction: column;
+    
+}
+
+input, select,textarea{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 140vh;
+    padding-inline: 1rem;
+    font-size: 1rem;
+    border-radius: 0.7rem;
+    border: 1px solid #ffffff;
+}
+select{
+    width: 145vh;
+}
+h3{
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    color: #c2782a
+}
+#save{
+      margin-left: 18rem;
+      margin-top: 1rem;
+      height: 2rem;
+      width: 13rem;
+      text-align: center;
+      border: 1px solid #ffffff;
+      background-color: #8c241c;
+      color: #ffffff;
+      font-size: 1rem;
+      border-radius: 0.7rem;
+}
+textarea{
+    height: 5rem;
+}
+
+#save:hover{
+    opacity: 0.2;
+}
+#loader{
+    width: 8rem;
+    height:8rem;
+    border-radius: 50%;
+    border: 8px solid transparent;
+    border-top: 8px solid #888800;
+    margin: 1rem;
+    margin-left: 3rem;
+    animation: all;
+    animation-name: looding;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+ @keyframes looding {
+    forom{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+ }
+ .load{
+    display: none;
+ }

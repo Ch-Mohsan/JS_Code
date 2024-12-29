@@ -1,0 +1,21 @@
+#d1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: whitesmoke;
+    border:2px solid salmon;
+}
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: palegreen;
+    color: white;
+    border:2px dotted red;
+}
+.pclass{
+    background-color: red;
+    color: white;
+}
+.newclass{
+    background-color: green;
+}

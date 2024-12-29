@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV maker</title>
+    <link rel="stylesheet" href="createCv.css">
+</head>
+<body>
+    
+    <form >
+        <h1>ADD Your Personal Info</h1>
+            
+        <input type="text" id="fullName" required placeholder="Enter Your Full Name">
+        <input type="email" id="Email" required placeholder="Enter your Email">
+        <input type="text" id="Phone" required placeholder="Enter your Contect">
+        
+        
+        <select  id="country" required>
+            <option value="" disabled selected>Select your country></option>
+            <option >Afganistan</option>
+            <option >Amracia</option>
+            <option >BanglaDash</option>
+            <option >Canada</option>
+            <option >Pakistan</option>
+            <option >India</option>
+            <option >Englad</option>
+            <option >Finland</option>
+        </select>
+        <textarea  id="about" cols="20" placeholder="Write about yourself " required></textarea>
+            <textarea  id="address" cols="20" placeholder="Write Your address " required></textarea>
+            <textarea  id="hobby" cols="20" placeholder="Write Your Hobies " required></textarea>
+
+         
+        
+        <div id="imgContent">
+            <label for="image">Add your Image</label>
+            <input type="file" id="inputImg">
+            <img class="hide" id="img">
+        </div>
+           <div id="loader" class="load"></div>
+        
+    </form>
+    <button type="submit"  id="save">Next</button>
+    
+    <script src="createCv.js"></script>
+</body>
+</html>

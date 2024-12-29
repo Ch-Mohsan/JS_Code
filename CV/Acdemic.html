@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Info</title>
+    <link rel="stylesheet" href="Acdemic.css">
+</head>
+
+<body>
+    <form>
+        <h1>ADD Your Professiobnal Detail's</h1>
+        <h3>Add Your Latest Degree</h3>
+        <input type="text" id="Institute" placeholder="Enter Your Institute" required>
+        <select id="Degree" required>
+            <option value="" selected disabled>Select Your Degree </option>
+            <option>Matric</option>
+            <option>A Level</option>
+            <option>O Level</option>
+            <option>FSC</option>
+            <option>ICS</option>
+            <option>FA</option>
+            <option>ICUM</option>
+            <option>Bs</option>
+            <option>Ms</option>
+        </select>
+        <select id="passYear" required>
+            <option value="" selected disabled>Select Passing Year</option>
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            
+        </select>
+        <input type="text" id="grades" placeholder="Enter Your Marks Precentage " required>
+        <input type="text" id="lange" placeholder="Add Your Languages">
+        <input type="text" id="skiles" placeholder="Add Your Skiles">
+        <textarea  id="explainSkil" placeholder="Decribed Your Skiles"></textarea>
+        <input type="text" id="projects" placeholder="Add Your Projects">
+        <textarea  id="explainProject" placeholder="Decribed Your projects"></textarea>
+
+    </form>
+
+        <button id="save">Save</button>
+    <div  id="loader"></div>
+    <script src="Acdemic.js"></script>
+</body>
+
+</html>

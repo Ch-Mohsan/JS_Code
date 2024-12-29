@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.nameBox {
+    text-align: center;
+    margin-top: 20px;
+}
+#fullname {
+    color: #333;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.clumnBox {
+    width: 250px;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.clumnBox img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.skillbox {
+    margin-bottom: 20px;
+}
+h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+p, li {
+    color: white;
+    margin: 5px 0;
+    font-size: 1rem;
+}
+ul {
+    padding-left: 20px;
+}
+.contentBox {
+    max-width: 700px;
+}
+.contentBox h2 {
+    margin: 20px 0 10px;
+    color: #003366;
+    font-size: 1.5rem;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #003366;
+    margin-bottom: 20px;
+}
+#education, #about, #experince {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+#download {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#download:hover {
+    background-color: #218838;
+}
